@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Inicio</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <h1>Bienvenido</h1>
+        <button onclick="loadStrings()">Cargar Lista</button>
+        <ul id="stringList"></ul>
+
+        <h2>Subir archivo</h2>
+        <input type="file" id="fileInput" />
+        <button onclick="uploadFile()">Subir</button>
+
+        <h2>Modificar datos</h2>
+        <input type="text" id="dataInput" placeholder="Nuevo dato" />
+        <button onclick="updateData()">Actualizar</button>
+
+        <script src="app.js"></script>
+    </body>
+</html>
